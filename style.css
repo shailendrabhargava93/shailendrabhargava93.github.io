@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 900px;
+    padding: 0 30px 50px 30px;
+}
+.container {
+    padding: 150px 245px;
+    margin: 0 auto;
+}
+.lead {
+    /*padding: 115px 0;*/    
+}
+
+@media (min-width: 768px).lead_heading {
+    font-size: 55px;
+}
+
+.lead_heading {
+    -webkit-animation: slideUp 750ms both;
+    animation: slideUp 750ms both;
+    font-size: 40px;
+}
+
+.lead_sub {
+    -webkit-animation: slideDown 750ms both;
+    animation: slideDown 750ms both;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.btn-lg {
+    padding: 18px 26px;
+}
+
+.btn-primary {
+    background: #f04;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 20px;
+    text-decoration: none;
+    background: #f04;
+    color: #fff;
+}
+.social-media{
+	margin-top:10px;
+}
+
+.socials_link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.experience-container{
+    padding: 10px 245px;
+    margin: 0 auto;
+}
+
+.timeline_item {
+    -webkit-animation: slideUp 750ms both;
+    animation: slideUp 750ms both;
+    border: 1px solid #eaeaea;
+    border-top: 2px solid #f04;
+    color: #222;
+    display: inline-block;
+    font-size: 13px;
+    padding: 20px;
+    position: relative;
+    vertical-align: top;
+    width: 97%;
+}
+
+@media (min-width: 768px)
+.timeline_item {
+    width: 46%;
+}
+
+.experience_header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+label.designation{
+	background: #f04;
+	color:white;
+}
+
+.skills-container{
+    padding: 30px 245px;
+    margin: 0 auto;
+}
+
+.skill-box{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*.footer_name {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer_title {
+    margin-top: 0;
+    color: #f04;
+}*/
