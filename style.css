@@ -165,12 +165,16 @@ span.skill-chip:hover{
     -webkit-border-radius:60px;
     -moz-border-radius:60px;
     border-radius:60px
+
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+    transition: width 1s, height 1s, transform 1s;
 }
 
 #scroll:hover {
     background-color:#f04;
-    opacity:1;filter:"alpha(opacity=100)";
-    -ms-filter:"alpha(opacity=100)";
+    
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
 }
 
 i.fa-arrow-up{
