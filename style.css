@@ -7,22 +7,9 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-@media (min-width: 768px)
 .container {
-    max-width: 900px;
-    padding: 0 30px 50px 30px;
-}
-.container {
-    padding: 150px 245px;
+    padding: 15% 20%;
     margin: 0 auto;
-}
-
-.lead {
-    /*padding: 115px 0;*/    
-}
-
-@media (min-width: 768px).lead_heading {
-    font-size: 55px;
 }
 
 .lead_heading {
@@ -59,6 +46,7 @@ body{
     background: #f04;
     color: #fff;
 }
+
 .social-media{
 	margin-top:10px;
 }
@@ -70,7 +58,7 @@ body{
 }
 
 .experience-container{
-    padding: 10px 245px;
+    padding: 2% 20%;
     margin: 0 auto;
 }
 
@@ -88,11 +76,6 @@ body{
     width: 97%;
 }
 
-@media (min-width: 768px)
-.timeline_item {
-    width: 46%;
-}
-
 .experience_header {
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -103,8 +86,9 @@ body{
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 2%;
 }
+
 .end-footer{
     background-color: rgba(51,51,51,0.08);
     font-size: 12px;
@@ -119,17 +103,17 @@ label.designation{
 }
 
 .skills-container{
-    padding: 30px 245px;
+    padding: 2% 20%;
     margin: 0 auto;
 }
 
 .skill-chip{
-    border-radius: 30px;
-    margin: 10px;
+    border-radius: 10em;
+    margin: 1%;
     font-size: 15px;
     font-weight: 500;
     padding: 5px 25px;
-    line-height: 50px;
+    line-height: 3em;
     border: 1px solid #f04;
 }
 
@@ -137,19 +121,6 @@ span.skill-chip:hover{
     background-color: #f04;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------Scroll button------*/
 #scroll {
@@ -184,12 +155,8 @@ i.fa-arrow-up{
 }
 
 
-/*.footer_name {
-    margin-top: 0;
-    margin-bottom: 0;
+/*-----For Mobile devices-----*/
+@media (min-width:480px) {
+   
+    
 }
-
-.footer_title {
-    margin-top: 0;
-    color: #f04;
-}*/
