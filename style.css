@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900");
+
+
 body{
-    margin:0px;
+   margin:0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -13,9 +18,24 @@ body{
 }
 
 .lead_heading {
-    -webkit-animation: slideUp 750ms both;
-    animation: slideUp 750ms both;
-    font-size: 40px;
+  font-size: 1.5rem;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  color: #111;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  display: inline-block;
+
+}
+
+.title-shadow {
+  text-shadow: 4px 4px 0 #6fd1bd;
+  transition: text-shadow 0.2s ease-in-out;
+}
+
+h1:hover .title-shadow {
+  text-shadow: -4px -4px 0 #f04;
 }
 
 .lead_sub {
