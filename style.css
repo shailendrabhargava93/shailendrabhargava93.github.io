@@ -35,7 +35,7 @@ body{
 }
 
 h1:hover .title-shadow {
-  text-shadow: -4px -4px 0 #f04;
+  text-shadow: -4px -4px 0 rgba(255, 0, 68, 0.78);
 }
 
 .lead_sub {
@@ -67,14 +67,15 @@ h1:hover .title-shadow {
     color: #fff;
 }
 
-.social-media{
-	margin-top:10px;
+.connect-social{
+	margin-top: 1em;
+    letter-spacing: 0.2em;
 }
 
 .socials_link {
     color: inherit;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .experience-container{
@@ -89,16 +90,15 @@ h1:hover .title-shadow {
     border-top: 2px solid #f04;
     color: #222;
     display: inline-block;
-    font-size: 13px;
-    padding: 20px;
+    font-size: 0.8rem;
+    padding: 2em;
     position: relative;
     vertical-align: top;
     width: 97%;
 }
 
 .experience_header {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid #eaeaea;
 }
 
@@ -109,12 +109,15 @@ h1:hover .title-shadow {
     padding: 2%;
 }
 
+.profile-footer{
+    padding: 2% 20%;
+    margin: 0 auto;
+}
+
 .end-footer{
-    background-color: rgba(51,51,51,0.08);
-    font-size: 12px;
-    font-weight: lighter;
+    font-size: 0.8rem;
     color: #f04;
-    margin-top: 5px;
+    padding: 3%;
 }
 
 label.designation{
@@ -144,12 +147,12 @@ span.skill-chip:hover{
 
 /*------Scroll button------*/
 #scroll {
-    position:fixed;
-    right: 5%;
-    bottom: 14%;
-    cursor:pointer;
-    width:50px;
-    height:50px;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
     background-color:#f04;
     color:white;
     display:none;
@@ -173,6 +176,8 @@ i.fa-arrow-up{
     margin-top: 15px;
     font-size: 18px;
 }
+
+
 
 
 /*-----For Mobile devices-----*/
