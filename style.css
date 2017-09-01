@@ -30,7 +30,7 @@ body{
 }
 
 .container {
-    padding: 15% 20%;
+    padding: 10% 20%;
     margin: 0 auto;
 }
 
@@ -195,6 +195,30 @@ i.fa-arrow-up{
     font-size: 1em;
 }
 
+/*--------Scroll Down-------*/
+
+.scroll-down {
+    position: relative;
+    font-size: 2em;
+    margin-left: 12em;
+    margin-top: 2.5em;
+    opacity: 0.5;
+    display: inline-block;
+    color: #ff0044;
+    -webkit-animation: bounce 2s infinite ease;
+    animation: bounce 2s infinite ease;
+}
+
+.scroll-down:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+    80% { -webkit-transform: translateY(-10px); }
+}
 
 /*-----For Mobile devices-----*/
 @media (min-width:480px) {
