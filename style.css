@@ -253,7 +253,10 @@ i.fa-arrow-up{
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
+.comp_link{
+    color: #e96c87;
+    text-decoration: unset;
+}
 @-webkit-keyframes bounce {
     0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
     40%  { -webkit-transform: translateY(-20px); }
