@@ -45,7 +45,6 @@ body{
   color: #111;
   font-weight: 900;
   line-height: 1;
-  letter-spacing: 0.2rem;
   text-transform: uppercase;
   display: inline-block;
 
@@ -123,8 +122,8 @@ a.socials_link:hover {
     width: 20em;
     height: 20em;
     padding: 0.5em;
-    float: right;
     border-radius: 10em;
+	margin-left: 2em;
 }
 
 .experience-container{
@@ -143,7 +142,7 @@ a.socials_link:hover {
     padding: 2em;
     position: relative;
     vertical-align: top;
-    width: 97%;
+    width: 50em;
 }
 
 .experience_header {
@@ -162,8 +161,9 @@ a.socials_link:hover {
     font-size: 1em;
     font-weight: 500;
     padding: 5px 25px;
-    line-height: 3em;
     border: 1px solid #f04;
+	height: 2em;
+    text-align: justify;
 }
 
 span.skill-chip:hover{
@@ -171,9 +171,14 @@ span.skill-chip:hover{
     color: white;
 }
 
+.skill-item{
+	display:inline-flex;
+}
+
 .footer {
     background-color: #000;
     color: #fff;
+	width:100%;
 }
 
 .profile-footer{
@@ -226,6 +231,77 @@ i.fa-arrow-up{
     margin:0;
 }
 
+/*-----------------------*/
+.wrapper {
+	height: 25em;
+    width: 45em;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.header {
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1506305269769-53a5714a93be?ixlib=rb-1.2.1&auto=format&fit=crop&w=645&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.ct-us {
+	margin: 0;
+    padding: 25px 25px 10px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  width: 76%;
+}
+
+h4 {
+  color: #666;
+  margin: 16px 0 6px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  
+}
+
+input,
+textarea {
+  border: solid 1px #cbcbcb; 
+  border-radius: 6px;
+  width: 92%;
+  padding: 6px 12px;
+  outline: none;
+}
+
+input {
+  height: 3em;
+}
+
+textarea {
+  height: 62px;
+}
+
+.submit {
+	height: 42px;
+    width: 60%;
+    margin: 24px auto;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: linear-gradient(to left bottom, #ff0044, rgb(255 0 68 / 78%));
+    cursor: pointer;
+}
+
 /*--------Scroll Down-------*/
 
 @media (min-width: 640px)
@@ -245,7 +321,6 @@ i.fa-arrow-up{
 }
 
 .down-container {
-    margin-top: -3.5em;
     margin-left: 50%;
 }
 
@@ -266,7 +341,21 @@ a.comp_link {
 }
 
 /*-----For Mobile devices-----*/
-@media (min-width:480px) {
-   
+@media only screen and (max-width: 600px) {
+	.footer {
+		background-color: #000;
+		color: #fff;
+		width:52em;
+	}
+	.down-container {
+		margin-left: 110%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+}
+
     
 }
