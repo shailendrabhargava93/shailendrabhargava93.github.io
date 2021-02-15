@@ -56,11 +56,12 @@
 		<div class="lead">
 			<img class="main-picture" src="image-compressed.jpg" >
 		</div>	
-		<!-- <a href="#"><i class="fa fa-chevron-circle-down scroll-down" aria-hidden="true"></i></a> -->
+		
 	</div>
-	<!--<div class="down-container">
-		<span class="scroll-down">↓ </span>
-	</div>-->
+	<div class="down-container">
+		<!--<span class="scroll-down">↓ </span>-->
+		<a href="#"><i class="fa fa-chevron-circle-down scroll-down" aria-hidden="true"></i></a>
+	</div>
 	<div class="experience-container">
 				<h2>Experience</h2>
 				<div class="timeline">				
@@ -124,19 +125,22 @@
 				</div>	
 			<div>
 			
-			<div class="wrapper">
-			  <div class="header">
-				<span class="ct-us">Drop me a line.</span>
-			  </div>
-			  <form action="https://send.pageclip.co/EXy8yXqfESVe4RvadsBkTICqNQR1yyLS" class="pageclip-form" method="post">
-				<h4>Name</h4>
-				<input type="text" name="name">
-				<h4>Email</h4>
-				<input type="text" name="email">
-				<h4>Message</h4>
-				<textarea name="message"></textarea>
-				<button class="submit">Send</button>
-			  </form>
+			<div class="contact-container">
+				<h2>Contact Me</h2>
+				<div class="wrapper">
+				  <div class="header">
+					<span class="ct-us">Drop me a line.</span>
+				  </div>
+				  <form action="https://send.pageclip.co/EXy8yXqfESVe4RvadsBkTICqNQR1yyLS" class="pageclip-form" method="post">
+					<h4>Name</h4>
+					<input type="text" name="name" required>
+					<h4>Email</h4>
+					<input type="email" name="email" required>
+					<h4>Message</h4>
+					<textarea name="message" required></textarea>
+					<button class="submit">Send</button>
+				  </form>
+				</div>
 			</div>
 		
 </main>	
