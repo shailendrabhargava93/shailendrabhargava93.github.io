@@ -17,3 +17,9 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: '650px' }, 600);
     });
 });
+
+const themeSwitch = document.getElementById('tmIcn');
+
+themeSwitch.addEventListener('click', () => {
+  document.body.classList.toggle('dark-theme');
+});
