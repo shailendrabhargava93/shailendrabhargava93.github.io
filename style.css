@@ -2,8 +2,7 @@
 
 :root{
   --white: #ffffff;
-  --black: #333333
-;
+  --black: #333333;
 }
 
 body{
@@ -11,7 +10,6 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    background: var(--mainBg);
-   text-color:var(--fontColor)
 }
 
 #tmIcn{
@@ -20,12 +18,10 @@ body{
 
 .light-theme {
   --mainBg: var(--white);
-  --fontColor: var(--black);
 }
 
 .dark-theme {
   --mainBg: var(--black);
-  --fontColor: var(--white);
 }
 
 
@@ -88,7 +84,7 @@ h1:hover .title-shadow {
     line-height: 25px;
     margin-bottom: 30px;
     text-align: justify;
-    color:var(--black);
+    color: var(--black);
 }
 
 label.designation{
