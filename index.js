@@ -16,10 +16,9 @@ $(document).ready(function(){
     $('.scroll-down').click(function(){ 
         $("html, body").animate({ scrollTop: '650px' }, 600);
     });
-});
-
-const themeSwitch = document.getElementById('tmIcn');
-
-themeSwitch.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme');
+    
+    $('#tmIcn').click(function(){ 
+        document.body.classList.toggle('dark-theme');
+    });
+    
 });
