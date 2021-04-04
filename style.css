@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900");
 
 :root{
-  --white: #f8f8f8;
-  --black: #222;
+  --white: #ffffff;
+  --black: #333333
+;
 }
 
 body{
@@ -10,6 +11,10 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    background: var(--mainBg);
+}
+
+#tmIcn{
+  cursor:pointer;
 }
 
 .light-theme {
@@ -58,7 +63,7 @@ body{
 .lead_heading {
   font-size: 1.2em;
   font-family: Lato, Helvetica, Arial, sans-serif;
-  color: #111;
+  color: var(--black);
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
@@ -131,7 +136,7 @@ label.designation{
 
 a.socials_link:hover {
     background: #f04;
-    color: white;
+    color: var(--white);
 }
 
 .main-picture{
@@ -152,7 +157,7 @@ a.socials_link:hover {
     animation: slideUp 750ms both;
     border: 1px solid #eaeaea;
     border-top: 2px solid #f04;
-    color: #222;
+    color: var(--black);
     display: inline-block;
     font-size: 0.8rem;
     padding: 2em;
@@ -198,7 +203,7 @@ span.skill-chip:hover{
 
 .footer {
     background-color: #000;
-    color: #fff;
+    color: var(--white);
 	width:100%;
 }
 
@@ -364,8 +369,8 @@ a.comp_link {
 /*-----For Mobile devices-----*/
 @media only screen and (max-width: 600px) {
 	.footer {
-		background-color: #000;
-		color: #fff;
+		background-color: var(--black);
+		color: var(--white);
 		width:52em;
 	}
 	.down-container {
