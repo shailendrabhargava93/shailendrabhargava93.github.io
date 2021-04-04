@@ -1,11 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900");
 
+:root{
+  --white: #f8f8f8;
+  --black: #222;
+}
 
 body{
    margin:0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background: var(--mainBg);
 }
+
+.light-theme {
+  --mainBg: var(--white);
+  --fontColor: var(--black);
+}
+
+.dark-theme {
+  --mainBg: var(--black);
+  --fontColor: var(--white);
+}
+
 
 * {
     box-sizing: border-box;
