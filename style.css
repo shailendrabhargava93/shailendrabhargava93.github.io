@@ -1,27 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900");
 
 :root{
-  --white: #ffffff;
-  --black: #333333;
+  --primary-color: #ffffff;
+  --secondary-color: #333333;
 }
 
 body{
    margin:0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background: var(--mainBg);
+   background: var(--primary-color);
 }
 
 #tmIcn{
   cursor:pointer;
+  color: var(--secondary-color);
 }
 
-.light-theme {
-  --mainBg: var(--white);
+.theme-icon {
+    float: right;
 }
 
 .dark-theme {
-  --mainBg: var(--black);
+  --primary-color: #333333;
+  --secondary-color: #ffffff;
 }
 
 
@@ -60,7 +62,7 @@ body{
 .lead_heading {
   font-size: 1.2em;
   font-family: Lato, Helvetica, Arial, sans-serif;
-  color: var(--black);
+  color: var(--secondary-color);
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
@@ -69,7 +71,6 @@ body{
 }
 
 .title-shadow {
-  /*text-shadow: 4px 4px 0 #6fd1bd;*/
   transition: text-shadow 0.2s ease-in-out;
 }
 
@@ -84,12 +85,16 @@ h1:hover .title-shadow {
     line-height: 25px;
     margin-bottom: 30px;
     text-align: justify;
-    color: var(--black);
+    color: var(--secondary-color);
 }
 
 label.designation{
     background: #f04;
-    color:var(--white);
+    color:var(--primary-color);
+}
+
+h3,h2{
+    color: var(--secondary-color);
 }
 
 .btn-lg {
@@ -104,23 +109,23 @@ label.designation{
     font-weight: 700;
     padding: 1rem 3.2rem;
     text-decoration: none;
-    color:var(--black);
+    color:var(--secondary-color);
     border: 1px solid #f04;
 }
 
 .btn:hover{
     background: #f04;
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .connect-social{
-	margin-top: 1em;
+    margin-top: 1em;
     display: inline-flex;
     margin-left: -0.6em;
 }
 
 .socials_link {
-    color: inherit;
+    color:var(--secondary-color);
     text-decoration: none;
     font-size: 0.8em;
     border-radius: 5em;
@@ -134,7 +139,7 @@ label.designation{
 
 a.socials_link:hover {
     background: #f04;
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .main-picture{
@@ -142,7 +147,7 @@ a.socials_link:hover {
     height: 20em;
     padding: 0.5em;
     border-radius: 10em;
-	margin-left: 2em;
+    margin-left: 2em;
 }
 
 .experience-container{
@@ -155,7 +160,7 @@ a.socials_link:hover {
     animation: slideUp 750ms both;
     border: 1px solid #eaeaea;
     border-top: 2px solid #f04;
-    color: var(--black);
+    color: var(--secondary-color);
     display: inline-block;
     font-size: 0.8rem;
     padding: 2em;
@@ -181,13 +186,14 @@ a.socials_link:hover {
     font-weight: 500;
     padding: 5px 25px;
     border: 1px solid #f04;
-	height: 2em;
+    height: 2em;
     text-align: justify;
+    color: var(--secondary-color);
 }
 
 span.skill-chip:hover{
     background-color: #f04;
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .skill-item{
@@ -200,8 +206,8 @@ span.skill-chip:hover{
 }
 
 .footer {
-    background-color: #000;
-    color: var(--white);
+   /*background: var(--secondary-color);*/
+    border-top: 1px solid var(--secondary-color);
     width:100%;
 }
 
@@ -217,6 +223,10 @@ span.skill-chip:hover{
     padding: 3%;
 }
 
+.content-left{
+  color: var(--secondary-color);
+}
+
 
 /*------Scroll button------*/
 #scroll {
@@ -227,13 +237,12 @@ span.skill-chip:hover{
     width: 3em;
     height: 3em;
     background-color:#f04;
-    color:var(--white);
+    color:var(--primary-color);
     display:none;
     -webkit-border-radius:3em;
     -moz-border-radius:3em;
     border-radius:3em;
     text-align: center;
-
     -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
     transition: width 1s, height 1s, transform 1s;
 }
@@ -259,7 +268,7 @@ i.fa-arrow-up{
 .wrapper {
     height: 25em;
     width: 45em;
-    background-color: var(--white);
+    background-color: var(--primary-color);
     border-radius: 24px;
     overflow: hidden;
     border: 1px solid #eee;
@@ -271,7 +280,7 @@ i.fa-arrow-up{
   width: 100%;
   background-size: cover;
   background-position: center;
-  color: var(--white);
+  color: var(--primary-color);
   text-align: center;
 }
 
@@ -290,7 +299,7 @@ form {
 }
 
 h4 {
-  color: #666;
+  color: var(--secondary-color);
   margin: 16px 0 6px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -315,12 +324,12 @@ textarea {
 }
 
 .submit {
-	height: 42px;
+    height: 42px;
     width: 60%;
     margin: 24px auto;
     border-radius: 6px;
     border: none;
-    color: var(--white);
+    color: var(--primary-color);
     background: linear-gradient(to left bottom, #ff0044, rgb(255 0 68 / 78%));
     cursor: pointer;
 }
@@ -344,7 +353,7 @@ textarea {
 
 .down-container {
     margin-left: 50%;
-	margin-top:-5em;
+    margin-top:-5em;
 }
 
 .scroll-down:after {
@@ -366,8 +375,8 @@ a.comp_link {
 /*-----For Mobile devices-----*/
 @media only screen and (max-width: 600px) {
 	.footer {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--secondary-color);
+		color: var(--primary-color);
 		width:52em;
 	}
 	.down-container {
