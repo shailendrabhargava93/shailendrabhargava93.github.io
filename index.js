@@ -19,6 +19,12 @@ $(document).ready(function(){
     
     $('#tmIcn').click(function(){ 
         document.body.classList.toggle('dark-theme');
+	var icon = document.getElementById('tmIcn');
+	if(document.body.classList.contains('dark-theme'))
+		icon.firstElementChild.className = "fa fa-sun-o";
+	else
+		icon.firstElementChild.className = "fa fa-moon-o";
+		
     });
     
 });
