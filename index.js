@@ -1,4 +1,7 @@
-$(document).ready(function(){ 
+$(document).ready(function(){
+  if (window.location.href==="https://shailendra.dev") {
+    window.location.href = "https://shailendrabhargava93.github.io/"; 
+  }
     
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 200) { 
