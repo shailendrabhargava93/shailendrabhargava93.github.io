@@ -385,6 +385,9 @@ a.comp_link {
 		margin-left: 110%;
 		margin-top: 0px;
 	}
+	.theme-icon {
+		margin-right: -30em;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
