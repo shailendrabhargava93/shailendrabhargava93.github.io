@@ -3,6 +3,8 @@
 :root{
   --primary-color: #ffffff;
   --secondary-color: #333333;
+  --current-theme:#0fccce;
+  --old-theme:	#f04;
 }
 
 body{
@@ -89,7 +91,7 @@ h1:hover .title-shadow {
 }
 
 label.designation{
-    background: #f04;
+    background: var(--current-theme);
     color:var(--primary-color);
 }
 
@@ -110,11 +112,11 @@ h3,h2{
     padding: 1rem 3.2rem;
     text-decoration: none;
     color:var(--secondary-color);
-    border: 1px solid #f04;
+    border: 1px solid var(--current-theme);
 }
 
 .btn:hover{
-    background: #f04;
+    background: var(--current-theme);
     color: var(--primary-color);
 }
 
@@ -134,11 +136,11 @@ h3,h2{
     margin-left: 10px;
     width: 45px;
     height: 45px;
-    border: 1px solid #f04;
+    border: 1px solid var(--current-theme);
 }
 
 a.socials_link:hover {
-    background: #f04;
+    background: var(--current-theme);
     color: var(--primary-color);
 }
 
@@ -159,7 +161,7 @@ a.socials_link:hover {
     -webkit-animation: slideUp 750ms both;
     animation: slideUp 750ms both;
     border: 1px solid #eaeaea;
-    border-top: 2px solid #f04;
+    border-top: 2px solid var(--current-theme);
     color: var(--secondary-color);
     display: inline-block;
     font-size: 0.8rem;
@@ -185,14 +187,14 @@ a.socials_link:hover {
     font-size: 1em;
     font-weight: 500;
     padding: 5px 25px;
-    border: 1px solid #f04;
+    border: 1px solid var(--current-theme);
     height: 2em;
     text-align: justify;
     color: var(--secondary-color);
 }
 
 span.skill-chip:hover{
-    background-color: #f04;
+    background-color: var(--current-theme);
     color: var(--primary-color);
 }
 
@@ -219,7 +221,7 @@ span.skill-chip:hover{
 
 .end-footer{
     font-size: 0.8rem;
-    color: #f04;
+    color: var(--current-theme);
     padding: 3%;
 }
 
@@ -236,7 +238,7 @@ span.skill-chip:hover{
     cursor: pointer;
     width: 3em;
     height: 3em;
-    background-color:#f04;
+    background-color:var(--current-theme);
     color:var(--primary-color);
     display:none;
     -webkit-border-radius:3em;
@@ -248,7 +250,7 @@ span.skill-chip:hover{
 }
 
 #scroll:hover {
-    background-color:#f04;
+    background-color:var(--current-theme);
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
 }
