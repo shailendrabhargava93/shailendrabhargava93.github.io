@@ -199,7 +199,7 @@ span.skill-chip:hover{
 }
 
 .skill-item{
-	display:inline-flex;
+    display:inline-flex;
 }
 
 .contact-container {
@@ -332,7 +332,7 @@ textarea {
     border-radius: 6px;
     border: none;
     color: var(--primary-color);
-    background: linear-gradient(to left bottom, var(--current-theme), rgb(255 0 68 / 78%));
+    background: var(--current-theme);
     cursor: pointer;
 }
 
